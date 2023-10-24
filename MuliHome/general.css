@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Gantari";
+  src: url("/fonts/Gantari-Regular.ttf");
+}
+@font-face {
+  font-family: "Gantari Light";
+  src: url("/fonts/Gantari-Light.ttf");
+}
+@font-face {
+  font-family: "Gantari SemiBold";
+  src: url("/fonts/Gantari-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Gantari Medium";
+  src: url("/fonts/Gantari-Medium.ttf");
+}
+
+*,
+body,
+html {
+  box-sizing: border-box;
+  font-family: "Gantari";
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+.header {
+  padding-inline: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: #002b31;
+}
+.header-links {
+  display: flex;
+  gap: 50px;
+  font-size: 16px;
+  color: #1c2c3b !important;
+  text-decoration: none;
+}
+.header-links a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.first-image {
+  margin-top: -3px;
+  position: relative;
+}
+.first-image img {
+  width: 100%;
+}
+.first-image-text {
+  position: fixed;
+  font-size: 150px;
+  color: #fff;
+  font-family: "Gantari Light";
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  z-index: 99;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+.first-image-text span {
+  background-color: transparent;
+  font-family: "Gantari SemiBold";
+}
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  padding-inline: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-footer {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.left-footer p {
+  color: #fff;
+  padding-inline: 20%;
+  font-family: "Gantari Light";
+}
+.mid-footer {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.top-mid-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.bottom-mid-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-mid-footer a,
+.bottom-mid-footer a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Gantari Light";
+  text-align: left;
+}
+.top-mid-footer span,
+.bottom-mid-footer span {
+  margin-bottom: 5px;
+  font-family: "Gantari SemiBold";
+}
+.right-footer {
+  width: 33%;
+  display: flex;
+}
+body {
+  background-color: pink;
+}
+
+footer {
+  height: 800px;
+}
+section img{
+  width: 100%;
+  height: 100%;
+}
+.section-title-underlay {
+  font-size: 150px;
+  position: fixed;
+  background-color: transparent;
+  color: #fff;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+main section{
+  height: 100vh;
+  width: 100%;
+}
+.section-title-underlay{
+  background-color: transparent;
+  font-family: "Gantari Light";
+}
